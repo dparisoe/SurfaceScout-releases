@@ -20,7 +20,7 @@ account; you don't need one to record a ride or share its GPX.
 
 ## What it sends to OpenStreetMap
 
-- A surface tag (`surface=paved`, `gravel`, `dirt` or `sand`) on roads that have **no surface** on the map. It
+- A surface tag (`surface=paved`, `compacted`, `gravel`, `dirt`, `sand`, `clay` or `unpaved`) on roads that have **no surface** on the map. It
   never replaces a surface someone already mapped: each road is read again just before its edit goes, and the
   edit is dropped if the road has a surface by then.
 - Notes for local mappers where one tag can't say it: a surface that changes along a road, a gate the map
